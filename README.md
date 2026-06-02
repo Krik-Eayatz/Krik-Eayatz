@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<!--
+change test.sh to the setup.sh when ready
+curl -sL https://github.com/Krik-Eayatz/Krik-Eayatz/archive/main.tar.gz | tar xz && chmod +x ./Krik-Eayatz-main/test.sh && ./Krik-Eayatz-main/test.sh 
+-->

@@ -1,0 +1,43 @@
+{
+  // Theme
+  "workbench.colorTheme": "Catppuccin Mocha",
+
+  // Icons
+  "workbench.iconTheme": "catppuccin-mocha",
+
+  // Font
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 24,
+
+  // Terminal font
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+  // Remove minimap
+  "editor.minimap.enabled": false,
+
+  // Move activity bar (Explorer / Extensions icons) to bottom
+  "workbench.activityBar.location": "bottom",
+
+  // Move side bar to the right
+  "workbench.sideBar.location": "right",
+
+  // Hide AI / Copilot chat
+  "chat.commandCenter.enabled": false,
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.editor.empty.hint": "hidden",
+  
+  // Hide secondary sidebar completely
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  // Optional: completely hide Chat view from sidebar
+  "workbench.view.chat.enabled": false,
+
+  // Optional cleaner UI
+  //"window.commandCenter": false,
+  //"breadcrumbs.enabled": false,
+
+  // Use Podman instead of Docker
+  "dev.containers.dockerPath": "podman"
+}
