@@ -9,11 +9,11 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 brew install stow
 
 # distribute dotfiles
-stow zsh
-stow tmux
-stow homebrew
-stow ghostty
-stow neovim
+stow --target="$HOME" zsh
+stow --target="$HOME" tmux
+stow --target="$HOME" homebrew
+stow --target="$HOME" ghostty
+stow --target="$HOME" neovim
 
 # install homebrew packages
 brew bundle check || brew bundle install
