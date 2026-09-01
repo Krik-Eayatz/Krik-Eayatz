@@ -1,6 +1,9 @@
 theme = Catppuccin Mocha
 
 font-family = "JetBrainsMono Nerd Font"
+font-size=18
 
 background-opacity=0.6
 #background-blur = true
+
+keybind = cmd+u=toggle_background_opacity
